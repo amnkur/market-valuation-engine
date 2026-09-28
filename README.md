@@ -1,4 +1,4 @@
-# AlphaConstraint: AI Infrastructure & 5-Rung Valuation Intelligence Engine
+# Market Valuation Engine: Multi-Asset & 5-Rung Valuation Intelligence Engine
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![React](https://img.shields.io/badge/React-19-cyan.svg)](https://react.dev/)
@@ -42,7 +42,7 @@ While financial media frequently speculates about an "AI bubble," physical infra
 
 ## 2. The 3-Layer Algorithmic Engine & 5 Signal Rungs
 
-AlphaConstraint evaluates every asset through a 3-Layer algorithmic system where the model **"argues with itself"** to prevent emotional FOMO or cyclical bag-holding:
+The Market Valuation Engine evaluates every asset through a 3-Layer algorithmic system where the model **"argues with itself"** to prevent emotional FOMO or cyclical bag-holding:
 
 ```mermaid
 flowchart TD

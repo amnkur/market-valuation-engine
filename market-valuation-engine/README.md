@@ -1,6 +1,6 @@
-# AlphaConstraint Frontend
+# Market Valuation Engine Frontend
 
-This directory contains the React 19 + Vite + Tailwind CSS frontend application for **AlphaConstraint: AI Infrastructure & 5-Rung Valuation Intelligence Engine**.
+This directory contains the React 19 + Vite + Tailwind CSS frontend application for the **Market Valuation Engine**.
 
 For the full project documentation, system architecture, and setup instructions, please refer to the root [README.md](../README.md).
 
