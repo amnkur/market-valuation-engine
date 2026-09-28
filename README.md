@@ -139,8 +139,8 @@ To prevent buying local tops or speculative capital traps, the engine integrates
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/amnkur/ai-infrastructure-valuation.git
-   cd ai-infrastructure-valuation
+   git clone https://github.com/amnkur/market-valuation-engine.git
+   cd market-valuation-engine
    ```
 
 2. **Install Python dependencies:**
@@ -150,7 +150,7 @@ To prevent buying local tops or speculative capital traps, the engine integrates
 
 3. **Install Frontend dependencies:**
    ```bash
-   cd ai-infra-valuation-app
+   cd market-valuation-engine
    npm install
    cd ..
    ```
@@ -174,7 +174,7 @@ python api_server.py
 
 **Terminal 2 (Frontend):**
 ```bash
-cd ai-infra-valuation-app
+cd market-valuation-engine
 npm run dev
 ```
 Open **`http://localhost:5173/`** in your browser.

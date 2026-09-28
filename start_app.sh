@@ -11,7 +11,7 @@ API_PID=$!
 sleep 2
 
 echo "Starting Vite Frontend Server on port 5173..."
-cd ai-infra-valuation-app || exit 1
+cd market-valuation-engine || exit 1
 npm run dev &
 FRONTEND_PID=$!
 

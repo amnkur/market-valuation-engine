@@ -9,7 +9,7 @@ start "Python Stock API Server (Port 5001)" cmd /k "python api_server.py"
 timeout /t 2 /nobreak >nul
 
 echo [2/2] Starting Vite Frontend Server on port 5173...
-cd ai-infra-valuation-app
+cd market-valuation-engine
 start "Vite Web Server (Port 5173)" cmd /k "npm run dev"
 timeout /t 3 /nobreak >nul
 
