@@ -21,7 +21,8 @@
 - [6. Quick Start Guide](#6-quick-start-guide)
 - [7. Terminal CLI Usage](#7-terminal-cli-usage)
 - [8. Security & Zero-Leak Verification](#8-security--zero-leak-verification)
-- [9. Disclaimer](#9-disclaimer)
+- [9. Contributing & Pull Requests](#9-contributing--pull-requests)
+- [10. Disclaimer](#10-disclaimer)
 
 ---
 
@@ -239,7 +240,18 @@ python check_stock.py NVDA
 
 ---
 
-## 9. Disclaimer
+## 9. Contributing & Pull Requests
+
+Contributions are welcome! To maintain code stability and quantitative model accuracy, direct pushes to `main` are restricted:
+
+1. **Fork & Branch:** Create a feature branch on your fork (`feature/your-feature-name`).
+2. **Pull Request Required:** Submit a Pull Request targeting `main`.
+3. **Owner Approval Policy:** All PRs require review and mandatory approval from repository owner ([@amnkur](https://github.com/amnkur)) via GitHub `CODEOWNERS` before merging.
+4. For detailed guidelines and testing instructions, please review [CONTRIBUTING.md](CONTRIBUTING.md).
+
+---
+
+## 10. Disclaimer
 
 *This application is an educational, research, and algorithmic analysis tool based on publicly discussed financial modeling principles. It is NOT financial advice, an endorsement, or a recommendation to buy or sell any security. Financial markets involve risk of loss. Always conduct independent due diligence.*
 
