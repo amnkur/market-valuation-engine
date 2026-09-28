@@ -46,28 +46,28 @@ AlphaConstraint evaluates every asset through a 3-Layer algorithmic system where
 
 ```mermaid
 flowchart TD
-    A[Raw Stock & Market Data] --> B[Layer 1: Intrinsic Worth & PEG Check]
-    B -->|Price < Fair Value & PEG < 1| C[Base Rung: BUY A LOT or BUY]
-    B -->|Price in Fair Value Corridor| D[Base Rung: HOLD]
-    B -->|Price > 35% Premium to Fair Value| E[Base Rung: SELL]
+    A["Raw Stock & Market Data"] --> B["Layer 1: Intrinsic Worth & PEG Check"]
+    B -->|"Price < Fair Value & PEG < 1"| C["Base Rung: BUY A LOT or BUY"]
+    B -->|"Price in Fair Value Corridor"| D["Base Rung: HOLD"]
+    B -->|"Price > 35% Premium to Fair Value"| E["Base Rung: SELL"]
     
-    C --> F[Layer 2: Technical Moving Averages & RSI Timing]
+    C --> F["Layer 2: Technical Moving Averages & RSI Timing"]
     D --> F
     E --> F
     
-    F -->|Price > 200 DMA & RSI 35-75| G[Trend: Healthy Accumulation]
-    F -->|Price < 200 DMA| H[Prudence: Argued Down to BUY]
-    F -->|RSI > 75 Overbought| I[Prudence: Argued Down / Stagger DCA]
+    F -->|"Price > 200 DMA & RSI 35-75"| G["Trend: Healthy Accumulation"]
+    F -->|"Price < 200 DMA"| H["Prudence: Argued Down to BUY"]
+    F -->|"RSI > 75 Overbought"| I["Prudence: Argued Down / Stagger DCA"]
     
-    G --> J[Layer 3: Historical Anomaly & Solvency Stress Test]
+    G --> J["Layer 3: Historical Anomaly & Solvency Stress Test"]
     H --> J
     I --> J
     
-    J -->|P/E > 80 or 2x 10Y Avg| K[OVERRIDE TO SELL: Multiple Bubble]
-    J -->|Valuation >= 95th Percentile| L[ARGUED DOWN: BUY A LITTLE (Cycle Peak)]
-    J -->|Debt/Equity > 2.0x| M[ARGUED DOWN: HOLD (Leverage Risk)]
-    J -->|Public < 2 Years| N[ARGUED DOWN: BUY (Lacks 10Y Baseline)]
-    J -->|Clean Bill of Health| O[CONFIRMED: BUY A LOT]
+    J -->|"P/E > 80 or 2x 10Y Avg"| K["OVERRIDE TO SELL: Multiple Bubble"]
+    J -->|"Valuation >= 95th Percentile"| L["ARGUED DOWN: BUY A LITTLE (Cycle Peak)"]
+    J -->|"Debt/Equity > 2.0x"| M["ARGUED DOWN: HOLD (Leverage Risk)"]
+    J -->|"Public < 2 Years"| N["ARGUED DOWN: BUY (Lacks 10Y Baseline)"]
+    J -->|"Clean Bill of Health"| O["CONFIRMED: BUY A LOT"]
 ```
 
 ### The 5 Signal Rungs:
