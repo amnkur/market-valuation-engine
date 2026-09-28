@@ -170,7 +170,7 @@ export default function App() {
                 <div>
                   <div className="flex items-center gap-2 flex-wrap">
                     <span className="text-xs uppercase font-mono px-2.5 py-0.5 rounded-full bg-cyan-950/70 border border-cyan-800 text-cyan-300 font-bold">
-                      BWB Proprietary Engine
+                      Quantitative Valuation Engine
                     </span>
                     <span className="text-xs text-slate-400 font-mono">
                       20,000,000 Daily Sweeps
@@ -389,9 +389,9 @@ export default function App() {
       <footer className="border-t border-slate-800/80 bg-[#070a10] py-6 px-4 sm:px-6 lg:px-8 mt-12 text-center text-xs text-slate-500 font-mono">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="text-left">
-            <span className="text-slate-300 font-bold">AlphaConstraint Engine</span>
+            <span className="text-slate-300 font-bold">Market Valuation Engine</span>
             <p className="text-[11px] text-slate-500 mt-0.5">
-              Recreation of Brian's investment valuation model with global & Indian Stock Market (NSE/BSE) integration.
+              Multi-layer fundamental & technical valuation framework with global & Indian Stock Market (NSE/BSE) integration.
             </p>
           </div>
           <div className="text-right text-[11px] text-slate-500">

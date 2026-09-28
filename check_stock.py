@@ -17,7 +17,7 @@ def evaluate_ticker(user_input):
         return
 
     print(f"\n=================================================================")
-    print(f"  BWB 3-LAYER VALUATION & 6 QUANT AUDIT ENGINE: {user_input}")
+    print(f"  QUANTITATIVE 3-LAYER VALUATION & AUDIT ENGINE: {user_input}")
     print(f"=================================================================")
     print(f"[*] Fetching live market & quant data via yfinance...")
 
@@ -31,7 +31,7 @@ def evaluate_ticker(user_input):
     print(f"\n[+] Company:              {data['name']} ({data['ticker']})")
     print(f"[+] Market / Exchange:    {data['bucketLabel']}")
     print(f"[+] Current Price:        {cs}{data['currentPrice']:.2f}")
-    print(f"[+] BWB Fair Value:       {cs}{data['fairValue']:.2f}")
+    print(f"[+] Model Fair Value:     {cs}{data['fairValue']:.2f}")
     if data.get('peterLynchFairValue'):
         print(f"[+] Peter Lynch FV:       {cs}{data['peterLynchFairValue']:.2f}")
     if data.get('dma200'):

@@ -1,6 +1,5 @@
 /**
- * BWB 3-Layer Valuation & Signal Engine + 6 Institutional Quant Filters
- * Simulates Brian's algorithmic investment system:
+ * Multi-Layer Fundamental Valuation & Signal Engine + 6 Institutional Quant Filters
  * Layer 1: Valuation & Intrinsic Worth vs Current Price + Peter Lynch Growth Parity
  * Layer 2: Momentum, 200 DMA & 14-Day RSI Technical Timing Filters
  * Layer 3: Historical Anomaly, Multiple Bubble, Solvency Runway & Physical Constraint Moats

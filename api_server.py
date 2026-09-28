@@ -528,7 +528,7 @@ def resolve_and_fetch_stock(user_input):
         "valuationPercentile": min(98, max(20, int(pe_ratio * 1.6))) if pe_ratio else 55,
         "backlogOrDemand": f"Market Capitalization: {mcap_str}",
         "keyRisks": f"Beta: {info.get('beta', '1.1')} | 52W High: {currency_symbol}{info.get('fiftyTwoWeekHigh', 0):.2f}",
-        "systemNotes": f"Live valuation computed for {name} ({target_symbol}) on {exchange_label}. Evaluated through Brian's 3-Layer valuation model & 6 Institutional Quant Filters.",
+        "systemNotes": f"Live valuation computed for {name} ({target_symbol}) on {exchange_label}. Evaluated through the Multi-Layer Fundamental Valuation Model & 6 Institutional Quant Filters.",
         "initialSignal": base_rung,
         "finalSignal": final_rung,
         "arguedDowngrade": argued_downgrade,

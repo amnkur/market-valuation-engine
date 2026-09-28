@@ -91,7 +91,7 @@ export default function NightlyRunSimulator() {
               </h2>
             </div>
             <p className="text-xs text-slate-300 mt-1 max-w-2xl">
-              Brian's proprietary algorithmic system runs 20 million calculations across every watch list ticker every night, stress-testing valuation bands, physical power delays, and hyperscaler backlog durability.
+              The proprietary algorithmic Monte Carlo engine executes 20 million calculations across every watch list ticker, stress-testing valuation bands, physical power delays, and hyperscaler backlog durability.
             </p>
           </div>
 
@@ -141,7 +141,7 @@ export default function NightlyRunSimulator() {
               </span>
             </div>
             <p className="text-[11px] text-slate-400 mb-2">
-              If the $1.7T hyperscaler backlog begins to shrink, Brian warned buy signals get thrown out.
+              If the $1.7T hyperscaler backlog begins to shrink, buy signals are systematically downgraded to protect capital.
             </p>
             <input
               type="range"

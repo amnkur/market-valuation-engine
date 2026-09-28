@@ -104,7 +104,7 @@ export default function StockDetailModal({ stock, onClose }) {
           <div className="flex items-center gap-3">
             <div className="text-right">
               <span className="text-[11px] text-slate-400 block font-mono uppercase tracking-wider font-semibold">
-                Official BWB Verdict
+                System Verdict
               </span>
               <span className={`px-4 py-1.5 rounded-xl text-sm font-bold font-mono tracking-wider border shadow-md inline-block mt-0.5 ${officialRung.badgeClass}`}>
                 {stock.finalSignal}
@@ -122,7 +122,7 @@ export default function StockDetailModal({ stock, onClose }) {
         <div className="my-4 p-4 rounded-xl bg-slate-900/90 border border-cyan-900/40">
           <div className="flex items-center gap-2 text-cyan-300 font-semibold text-xs mb-1 font-mono">
             <Cpu className="w-4 h-4 text-cyan-400" />
-            <span>BUSINESS WITH BRIAN 3-LAYER VALUATION MODEL & INSTITUTIONAL QUANT AUDIT</span>
+            <span>3-LAYER VALUATION MODEL & INSTITUTIONAL QUANT AUDIT</span>
           </div>
           <p className="text-sm text-slate-200 leading-relaxed italic">
             "{stock.systemNotes}"
@@ -151,7 +151,7 @@ export default function StockDetailModal({ stock, onClose }) {
                   <span className="text-sm font-bold text-white">{cs}{stock.currentPrice.toFixed(2)}</span>
                 </div>
                 <div className="bg-[#0b101c] p-2.5 rounded-lg border border-slate-800">
-                  <span className="text-[10px] text-slate-400 block">BWB Fair Value</span>
+                  <span className="text-[10px] text-slate-400 block">Model Fair Value</span>
                   <span className="text-sm font-bold text-cyan-300">
                     {stock.fairValue ? `${cs}${stock.fairValue.toFixed(2)}` : 'Consensus'}
                   </span>
@@ -483,7 +483,7 @@ export default function StockDetailModal({ stock, onClose }) {
         {/* Modal Footer */}
         <div className="mt-5 pt-4 border-t border-slate-800 flex items-center justify-between">
           <p className="text-xs text-slate-500 font-mono">
-            BWB Methodology: Physical constraint moats + 3-Layer valuation + 14-day RSI timing + Solvency runway checks.
+            Quantitative Methodology: Physical constraint moats + 3-Layer valuation + 14-day RSI timing + Solvency runway checks.
           </p>
           <button
             onClick={onClose}

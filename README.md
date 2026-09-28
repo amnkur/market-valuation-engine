@@ -8,7 +8,7 @@
 [![yfinance](https://img.shields.io/badge/Data-yfinance-green.svg)](https://github.com/ranaroussi/yfinance)
 
 > **"Find the physical constraint, because the constraint decides who gets paid."**  
-> — Inspired by the investment framework and algorithmic pricing models presented in **Business With Brian (BWB)**: *["Everyone Hates AI Right Now. Four Stocks That Are Bulletproof"](https://youtu.be/bGhRAjwTusg?si=549Xk_iEpu8LINMS)*.
+> An institutional-grade equity valuation engine and physical infrastructure bottleneck screener combining multi-layer fundamental models, technical momentum filters, and balance sheet solvency stress tests.
 
 ---
 
@@ -42,7 +42,7 @@ While financial media frequently speculates about an "AI bubble," physical infra
 
 ## 2. The 3-Layer Algorithmic Engine & 5 Signal Rungs
 
-AlphaConstraint evaluates every asset through Brian's 3-Layer algorithmic system where the model **"argues with itself"** to prevent emotional FOMO or cyclical bag-holding:
+AlphaConstraint evaluates every asset through a 3-Layer algorithmic system where the model **"argues with itself"** to prevent emotional FOMO or cyclical bag-holding:
 
 ```mermaid
 flowchart TD
@@ -102,7 +102,7 @@ To prevent buying local tops or speculative capital traps, the engine integrates
 - **🎲 20 Million Calculations Nightly Monte Carlo Simulator:** Live simulation engine with real-time shock sliders for Hyperscaler Backlog cuts (-50% to +50%) and Grid Delays (0 to 36 months).
 - **🧪 Interactive Custom Valuation & Quant Lab:** Adjust Fair Value, P/E, 200 DMA, 14-Day RSI, and D/E sliders to observe real-time algorithmic verdict recalculations.
 - **❄️ Data Center Engineering Physics Calculator:** Compute megawatt electrical load, closed-loop cooling GPM, and required copper tonnage for any cluster size.
-- **💰 Dollar-Cost Averaging (DCA) Allocator:** Automatically distributes monthly investment capital strictly according to Brian's 5-rung rules.
+- **💰 Dollar-Cost Averaging (DCA) Allocator:** Automatically distributes monthly investment capital strictly according to the 5-rung risk-weighting framework.
 
 ---
 
@@ -199,7 +199,7 @@ python check_stock.py NVDA
 ### Sample CLI Output:
 ```text
 =================================================================
-  BWB 3-LAYER VALUATION & 6 QUANT AUDIT ENGINE: TARIL
+  QUANTITATIVE 3-LAYER VALUATION & AUDIT ENGINE: TARIL
 =================================================================
 [*] Fetching live market & quant data via yfinance...
 [Alias Match] 'TARIL' -> TARIL.NS
@@ -207,7 +207,7 @@ python check_stock.py NVDA
 [+] Company:              TRANS & RECTI. LTD (TARIL.NS)
 [+] Market / Exchange:    NSE (India) • Electrical Equipme
 [+] Current Price:        ₹270.45
-[+] BWB Fair Value:       ₹344.33
+[+] Model Fair Value:     ₹344.33
 [+] Peter Lynch FV:       ₹88.80
 [+] 200-Day Moving Avg:   ₹298.20 (BELOW)
 [+] P/E Multiple:         30.5x (10Y avg: 22.8x)

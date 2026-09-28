@@ -53,7 +53,7 @@ export default function Header({ activeTab, setActiveTab, onTriggerNightlyRun, i
                 Alpha<span className="text-cyan-400">Constraint</span>
               </h1>
               <span className="text-[10px] px-2 py-0.5 rounded bg-cyan-950/70 border border-cyan-800/60 text-cyan-300 font-mono">
-                BWB Valuation v2.6
+                Quant Engine v2.6
               </span>
             </div>
             <p className="text-xs text-slate-400">

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # ========================================================
-#   Starting AlphaConstraint Valuation Engine & Web App
+#   Starting Market Valuation Engine & Web App
 # ========================================================
 
 echo "Starting Python Stock & Indian Market API Server on port 5001..."

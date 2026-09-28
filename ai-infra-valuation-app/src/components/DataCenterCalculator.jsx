@@ -75,7 +75,7 @@ export default function DataCenterCalculator() {
               </h2>
             </div>
             <p className="text-xs text-slate-300 mt-1 max-w-2xl">
-              Brian's core data center law: <em className="text-cyan-300">Fewer than 4% of American data centers can house a full rack of Nvidia's newest chips</em>. Calculate real-world megawatt demand, liquid cooling pipe infrastructure, and physical copper requirements.
+              Physical thermal constraint: <em className="text-cyan-300">Fewer than 4% of American data centers can house a full rack of newest high-density AI accelerators</em>. Calculate real-world megawatt demand, liquid cooling pipe infrastructure, and physical copper requirements.
             </p>
           </div>
 

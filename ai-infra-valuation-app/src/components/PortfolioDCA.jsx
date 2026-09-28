@@ -14,7 +14,7 @@ import { STOCK_DATA } from '../data/stocksData';
 export default function PortfolioDCA({ onSelectStock }) {
   const [monthlyBudget, setMonthlyBudget] = useState(2500);
 
-  // Brian's Dollar Cost Averaging Rung Weights:
+  // Multi-Tier Dollar Cost Averaging Rung Weights:
   // BUY A LOT: 45% of buy pool
   // BUY: 30% of buy pool
   // BUY A LITTLE: 15% of buy pool
@@ -65,11 +65,11 @@ export default function PortfolioDCA({ onSelectStock }) {
                 <Coins className="w-5 h-5" />
               </span>
               <h2 className="text-xl font-bold text-white font-mono">
-                BWB Dollar-Cost Averaging (DCA) Allocator
+                Multi-Tier Dollar-Cost Averaging (DCA) Allocator
               </h2>
             </div>
             <p className="text-xs text-slate-300 mt-1 max-w-2xl">
-              Brian's golden execution rule: <em className="text-emerald-300">"Dollar cost averaging is our best friend right now. But if the price is sitting on that sell step, everyone else is just overpaying—zero need to jump into that group."</em>
+              Execution discipline: <em className="text-emerald-300">"Dollar-cost averaging is the primary risk-mitigation tool. Heavily accumulate on confirmed discounts, and allocate zero capital to overvalued steps."</em>
             </p>
           </div>
 

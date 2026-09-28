@@ -516,7 +516,7 @@ export default function ValuationLab() {
               <h3 className="text-sm font-bold text-white font-mono uppercase tracking-wider">
                 System Decision Rung
               </h3>
-              <span className="text-xs text-cyan-400 font-mono">BWB Signal</span>
+              <span className="text-xs text-cyan-400 font-mono">Model Signal</span>
             </div>
 
             {/* Big Signal Display */}
@@ -568,7 +568,7 @@ export default function ValuationLab() {
           </div>
 
           <div className="mt-6 pt-3 border-t border-slate-800 text-[11px] text-slate-500 font-mono">
-            Evaluated using Brian's 3-Layer Logic + 6 Institutional Quant Filters (RSI, Solvency, Physical Moat, Invalidation).
+            Evaluated using Multi-Layer Fundamental Logic + 6 Institutional Quant Filters (RSI, Solvency, Physical Moat, Invalidation).
           </div>
         </div>
       </div>

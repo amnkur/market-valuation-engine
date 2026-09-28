@@ -1,7 +1,7 @@
 @echo off
-title BWB AlphaConstraint Runner
+title Market Valuation Engine Runner
 echo ========================================================
-echo   Starting BWB AlphaConstraint Valuation Engine & App
+echo   Starting Market Valuation Engine & Dashboard
 echo ========================================================
 echo.
 echo [1/2] Starting Python Stock & Indian Market API Server on port 5001...
